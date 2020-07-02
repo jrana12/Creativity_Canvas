@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+<title>Creativity Canvas!</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+</head>
+<body>
+	
+	<div id=main>
+	<div id="container">
+		<canvas id="paint" width="1000px" height="600px"></canvas>
+	</div>
+	<div id="inputContainer">
+		<div id="heading">
+			Creativity Canvas!
+		</div>
+		<div class="input" id="colorinput">
+			<input type="color" list id="paint-color">
+		</div>
+		<div class="input" id="thickness">
+			<div id="circle"></div>
+		</div>
+		<div class="input">
+			<div id="slider"></div>	
+		</div>
+		<div class="inputcontainer2">
+			<div class ="input2">
+				<span id="erase" class="button">Erase</span>
+			</div>
+			<div class ="input2">
+				<span id="reset" class="button">Reset</span>
+			</div>
+		</div>
+	</div>
+	</div>
+	<script src="javascript.js"></script>
+</body>
+</html>
